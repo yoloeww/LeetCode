@@ -22,9 +22,8 @@ private:
     }
     bool isPalindrome(const string& s, int start, int end) {
         for (int i = start, j = end; i < j; i++, j--) {
-            if (s[i] != s[j]) {
+            if (s[i] != s[j]) 
                 return false;
-            }
         }
         return true;
     }

@@ -23,3 +23,20 @@ public:
        return pre;
     }
 };
+2023/5/24
+206. 反转链表
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode* cur = head;
+        ListNode* temp = nullptr;
+        ListNode* pre = nullptr;
+        while (cur) {
+            pre = cur -> next;
+            cur -> next = temp;
+            temp = cur;
+            cur =  pre;
+        }
+        return temp;
+    }
+};

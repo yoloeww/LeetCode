@@ -1,6 +1,5 @@
 class Solution {
 public:
-    ListNode* removeElements(ListNode* head, int val) {
-
+    ListNode* removeElements(ListNode* head, int val) 
     }
 };

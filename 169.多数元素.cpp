@@ -1,5 +1,5 @@
 class Solution {
-public:
+public
     int majorityElement(vector<int>& nums) {
         unordered_map<int,int> hash;
         for (int i = 0; i < nums.size(); i++) {

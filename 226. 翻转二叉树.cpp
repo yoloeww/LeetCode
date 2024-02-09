@@ -1,6 +1,6 @@
 /**
  * Definition for a binary tree node.
- * struct TreeNode 
+ * struct TreeNod
  *     int val
  *     TreeNode *left;
  *     TreeNode *right;

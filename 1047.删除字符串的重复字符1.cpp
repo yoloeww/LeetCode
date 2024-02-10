@@ -1,4 +1,4 @@
-class Solution {
+class Solution 
 public:
     string removeDuplicates(string s) {
     stack <char> st;

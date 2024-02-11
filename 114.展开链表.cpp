@@ -1,7 +1,7 @@
 #include<iostream>
 #include<cstring>
 #include<cstdio>
-using namespace std;
+using namespace std
 int stoii(char a[])//转换函数
 {
     int len=strlen(a);//字符串长度

@@ -1,5 +1,5 @@
 class Solution { 
-public:
+public:l
     vector<int> twoSum(vector<int>& nums, int target) 
         int i = 0,j = 1;
         int maxArea = nums.size()-1;

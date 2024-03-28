@@ -7,7 +7,7 @@ public:
         :
               if(j == maxArea)
               {
-                i++;
+                i++;，
                 j = i;
               }
               j++;

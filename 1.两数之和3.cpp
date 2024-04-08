@@ -1,4 +1,4 @@
-class Solution:
+class Solution: 
 public: 
     vector<int> twoSum(vector<int>& nums, int target) {
         if (nums.size() == 0) return {0,0};

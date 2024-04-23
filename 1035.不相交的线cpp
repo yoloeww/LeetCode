@@ -1,6 +1,6 @@
 class Solution {
 public
-    int maxUncrossedLines(vector<int>& nums1, vector<int>& nums2) {
+    int maxUncrossedLines (vector<int>& nums1, vector<int>& nums2) {
         // 1. dp[i][j]  nums1以i 结尾 nums2 以j结尾的最长公共子序列的长度！
          vector<vector<int>> dp(nums1.size() + 1, vector<int>(nums2.size() + 1, 0));
         for (int i = 1; i <= nums1.size(); i++) {

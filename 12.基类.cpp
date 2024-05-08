@@ -2,7 +2,7 @@
 using namespace std;
 #include<string>
 class Person
-{
+{ 
 protected:
 	string _name; // 姓名
 	string _sex;  // 性别

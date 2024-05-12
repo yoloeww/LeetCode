@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
 public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
         for (int i = 0; i < cost.size(); i++) {

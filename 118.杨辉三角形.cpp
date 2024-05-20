@@ -1,5 +1,5 @@
 class Solution { 
-public:
+public: 
     vector<vector<int>> generate(int numRows) 
     {
           vector<vector<int>> ret(numRows);

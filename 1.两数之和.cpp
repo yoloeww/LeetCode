@@ -10,7 +10,7 @@ public:
                 i++;，
                 j = i;
               }
-              j++;
+              j++; 
         }
        return {i, j};
     }

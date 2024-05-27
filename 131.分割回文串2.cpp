@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
 vector<vector<string>> res;
 string path;
 	void process(string &s,int index) {

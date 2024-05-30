@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
 public:  
 vector<vector<string>> res;
 string path;

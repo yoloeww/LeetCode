@@ -1,5 +1,5 @@
 class Solution {
-private:
+private: 
     vector<vector<string>> result;
     vector<string> path; // 放已经回文的子串
     void backtracking (const string& s, int startIndex) {

@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
 public:
     int evalRPN(vector<string>& tokens) {
         stack<long long> st;

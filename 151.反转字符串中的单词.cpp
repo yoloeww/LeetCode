@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
 public:
     void reverse(string &s,int start,int end) {
         for (int i = start,j = end; i < j; i ++,j --) {

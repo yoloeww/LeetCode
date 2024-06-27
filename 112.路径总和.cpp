@@ -1,5 +1,5 @@
 class solution {
-public: 
+public:  
     bool hasPathSum(TreeNode* root, int sum) {
         if (root == null) return false;
         if (!root->left && !root->right && sum == root->val) {

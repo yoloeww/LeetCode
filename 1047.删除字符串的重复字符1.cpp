@@ -1,5 +1,5 @@
 class Solution  
-public:
+public: 
     string removeDuplicates(string s) {
     stack <char> st;
     for(char tmp:s) {

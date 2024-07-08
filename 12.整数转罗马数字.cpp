@@ -1,5 +1,5 @@
 class Solution {
-public: 
+public:  
   
     string intToRoman(int num) {
        const pair<int, string> valueSymbols[] = {

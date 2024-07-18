@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
 public:
     void reorderList(ListNode* head) {
         if (head == nullptr) {

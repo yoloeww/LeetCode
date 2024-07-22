@@ -1,5 +1,5 @@
 class Solution 
-{
+{ 
 public:
     int maxPoints(vector<vector<int>>& points) 
     {   //对每个点。遍历，找斜率相同的。注意重复点

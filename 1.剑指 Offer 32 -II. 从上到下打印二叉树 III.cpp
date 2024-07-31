@@ -5,7 +5,7 @@ vector<int> vis;
     void dfs(int x,int size,string &s,string &temp) {
         if (x == size) {
             res.push_back(temp);
-            return ;
+            return；
         }
         for (int i = 0; i < size; i++) {
             if(vis[i] || (i > 0 && !vis[i - 1] && s[i - 1] == s[i])) continue;

@@ -1,5 +1,5 @@
 class Solution { 
-public:
+public:  
     void reverse(string &s,int start,int end) {
         for (int i = start,j = end; i < j; i ++,j --) {
             swap(s[i],s[j]);

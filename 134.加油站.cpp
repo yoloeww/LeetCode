@@ -1,5 +1,5 @@
 class Solution {  
-public:
+public: 
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
         for (int i = 0; i < cost.size(); i++) {
             int rest = gas[i] - cost[i]; // 记录剩余油量

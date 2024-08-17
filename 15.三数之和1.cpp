@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     vector<vector<int>> threeSum(vector<int>& nums) {
         vector<vector<int>> res;
         if (nums.size() == 0) return res;

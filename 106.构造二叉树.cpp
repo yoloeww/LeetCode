@@ -1,5 +1,5 @@
 class Solution {
-private: 
+private:   
     TreeNode* traversal (vector<int>& inorder, vector<int>& postorder) {
         if (postorder.size() == 0) return NULL;
 

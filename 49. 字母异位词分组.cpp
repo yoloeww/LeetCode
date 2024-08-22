@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         // 遍历每个字符串，对于每个字符串，得到该字符串所在的一组字母异位词的标志，将当前字符串加入该组字母异位词的列表中。

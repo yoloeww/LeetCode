@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     bool arrayStringsAreEqual(vector<string>& word1, vector<string>& word2) 
     {
         string newstr1,newstr2;

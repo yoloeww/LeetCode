@@ -12,7 +12,7 @@ private:
         for (delimiterIndex = inorderBegin; delimiterIndex < inorderEnd; delimiterIndex++) {
             if (inorder[delimiterIndex] == rootValue) break;
         }
-        // 切割中序数组
+        // 切割中序
         // 中序左区间，左闭右开[leftInorderBegin, leftInorderEnd)
         int leftInorderBegin = inorderBegin;
         int leftInorderEnd = delimiterIndex;

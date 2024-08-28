@@ -1,5 +1,5 @@
 class Solution {  
-public: 
+public:  
     int evalRPN(vector<string>& tokens) {
     stack <long long> st;
     for (int i = 0;i < tokens.size(); i++) {。

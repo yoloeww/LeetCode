@@ -1,5 +1,5 @@
 class Solution {
-public
+public：
     bool isValid(string s) {
         stack<char> st;
          if (s.size() % 2 == 1) {

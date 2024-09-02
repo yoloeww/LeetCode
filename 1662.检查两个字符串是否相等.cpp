@@ -2,7 +2,6 @@ class Solution {
 public: 
     bool arrayStringsAreEqual(vector<string>& word1, vector<string>& word2) 
     {
-        
         string newstr1,newstr2;
         for(int i = 0;i <word1.size();i++)
         {

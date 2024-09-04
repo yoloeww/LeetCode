@@ -1,5 +1,5 @@
 class Solution {
-public
+public：
     bool isValid(string s) {
         if (s.size() % 2 == 1) {
             return false;

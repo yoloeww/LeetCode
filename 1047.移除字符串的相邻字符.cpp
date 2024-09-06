@@ -3,7 +3,7 @@ public:
     string removeDuplicates(string S) {
         stack<char> st;
         for (char s : S) {
-            if (st.empty() || s != st.top()) {
+            if (st. empty() || s != st.top()) {
                 st.push(s);
             } else {
                 st.pop(); // s 与 st.top()相等的情况

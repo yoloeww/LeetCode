@@ -1,5 +1,6 @@
 class Solution { 
-private:      
+private:   
+//x
         TreeNode* traversal (vector <int>& inorder, int inorderBegin, int inorderEnd, vector<int>& preorder, int preorderBegin, int preorderEnd) {
         if (preorderBegin == preorderEnd) return NULL;
         int rootValue = preorder[preorderBegin]; // 注意用preorderBegin 不要用0

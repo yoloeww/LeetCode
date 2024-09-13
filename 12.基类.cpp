@@ -11,7 +11,7 @@ protected:
 class Student : public Person
 {
 public:
-	int _No; // 学号
+	int _No; 学号
 };
 void Test()
 {

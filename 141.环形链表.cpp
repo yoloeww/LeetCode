@@ -20,6 +20,6 @@ public:
                 return true;
             }
         }
-        return false;
+        return -1;
     }
 };

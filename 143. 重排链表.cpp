@@ -40,10 +40,8 @@ public:
         while (l1 != nullptr && l2 != nullptr) {
             l1_tmp = l1->next;
             l2_tmp = l2->next;
-
             l1->next = l2;
             l1 = l1_tmp;
-
             l2->next = l1;
             l2 = l2_tmp;
         }

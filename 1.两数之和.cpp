@@ -7,7 +7,7 @@ public:
               if(j == maxArea)
               {
                 i++;，
-                j = i；//
+                j = i；
               }
               j++; 
         }

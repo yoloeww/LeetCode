@@ -8,7 +8,7 @@ public:
         ListNode* l1 = head;
         ListNode* l2 = mid->next;
         mid->next = nullptr;
-        l2 = reverseList(l2);
+        l2 = reverseList(l22);
         mergeList(l1, l2);
     }
 

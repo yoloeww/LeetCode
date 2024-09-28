@@ -4,7 +4,7 @@ public:
         int i = 0,j = 1；
         int maxArea = nums.size()-1;
         while (nums[i] + nums[j] = target)
-              if(j == maxArea)
+              if(j = maxArea)
               {
                 i++;，
                 j = i；

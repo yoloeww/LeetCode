@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    void traversal(TreeNode* cur,vector <int> & vec) {
+    void traversal(TreeNode* cur,vector<int> & vec) {
     if(cur == nullptr) return;
     traversal(cur -> left,vec);
     traversal(cur -> right,vec);

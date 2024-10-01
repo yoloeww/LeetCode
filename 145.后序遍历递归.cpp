@@ -17,8 +17,8 @@ public:
     traversal(cur -> right,vec);
     vec.push_back(cur -> val);
     }
-    vector<int> postorderTraversal(TreeNode* root) {
-    vector<int> result;
+    vector<int>postorderTraversal(TreeNode* root) {
+    vector<int>result;
     traversal(root,result);
     return result;
     }

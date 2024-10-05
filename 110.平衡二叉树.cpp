@@ -28,6 +28,6 @@ public:
 
     }
     bool isBalanced(TreeNode* root) {
-     return getHeight(root) == -1 ? false : true;
+     return getHeight(root) == -1 ?  false : true;
     }
 }

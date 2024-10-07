@@ -4,7 +4,7 @@ public:
         vector<vector<int>> res;
         if (nums.size() == 0) return res;
         sort(nums.begin(),nums.end());
-        if (nums[0] > 0) return res;
+        if (nums[0] > 0) return res; 
         for (int k = 0; k < nums.size() - 2; k ++) {
             if (k > 0 && nums[k] == nums[k - 1]) continue;
             int i = k + 1,j = nums.size() - 1;

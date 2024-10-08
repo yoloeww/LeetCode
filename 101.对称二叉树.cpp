@@ -18,7 +18,7 @@ public:
         else if (left -> val != right -> val) return false;
         else return (compare(left -> left,right -> right))&& compare(left->right, right->left);
     }
-    bool isSymmetric(TreeNode* root) {
+    bool isSymmetric(TreeNode*root) {
         if (root == nullptr) return true;
         return compare(root->left, root->right);
     }

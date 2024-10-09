@@ -15,7 +15,7 @@ public:
         if (node == nullptr) return 0;
         int leftDepth = getDepth(node -> left);
         int rightDepth = getDepth(node -> right);
-        if(node -> left == nullptr && node -> right != nullptr)
+        if(node -> left == nullptr && node -> right  = nullptr)
         return 1 + rightDepth;
         if (node -> left != NULL && node -> right == NULL) 
         return 1 + leftDepth;

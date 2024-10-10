@@ -4,7 +4,6 @@ private:
         if (preorderBegin == preorderEnd) return NULL;
         int rootValue = preorder[preorderBegin]; // 注意用preorderBegin 不要用0
         TreeNode* root = new TreeNode(rootValue);
-
         if (preorderEnd - preorderBegin == 1) return root;
 
         int delimiterIndex;

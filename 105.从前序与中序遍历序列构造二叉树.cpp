@@ -1,4 +1,4 @@
-class Solution {
+class Solution 
 private:   
         TreeNode* traversal (vector <int>& inorder, int inorderBegin, int inorderEnd, vector<int>& preorder, int preorderBegin, int preorderEnd) {
         if (preorderBegin == preorderEnd) returnNULL;

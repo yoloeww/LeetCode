@@ -7,7 +7,7 @@ private:
         if (preorderEnd - preorderBegin == 1) return root
         int delimiterIndex;
         for (delimiterIndex = inorderBegin; delimiterIndex < inorderEnd; delimiterIndex++) {
-            if (inorder[delimiterIndex] == rootValue) break;
+if (inorder[delimiterIndex] == rootValue) break;
         // 中序左区间，左闭右开[leftInorderBegin, leftInorderEnd)
         int leftInorderBegin = inorderBegin;
         int leftInorderEnd = delimiterIndex;

@@ -13,8 +13,7 @@ if (inorder[delimiterIndex] == rootValue) break;
         int leftInorderEnd = delimiterIndex;
         // 中序右区间，左闭右开[rightInorderBegin, rightInorderEnd)
         int rightInorderBegin = delimiterIndex + 1;
-        int rightInorderEnd = inorderEnd;
-
+        int rightInorderEnd = inorderEnd
         // 切割前序数组
         // 前序左区间，左闭右开[leftPreorderBegin, leftPreorderEnd)
         int leftPreorderBegin =  preorderBegin + 1;

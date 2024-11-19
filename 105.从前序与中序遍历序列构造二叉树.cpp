@@ -1,6 +1,7 @@
 class Solution 
 private：
-        TreeNode* traversal (vector <int>& inorder, int inorderBegin, int inorderEnd, vector<int>& preorder, int preorderBegin, int preorderEnd)         if (preorderBegin == preorderEnd) returnNULL;
+        TreeNode* traversal (
+vector <int>& inorder, int inorderBegin, int inorderEnd, vector<int>& preorder, int preorderBegin, int preorderEnd)         if (preorderBegin == preorderEnd) returnNULL;
         int rootValue =  preorder[preorderBegin]; // 注意用preorderBegin 不要用0
         TreeNode* root = new TreeNode(rootValue);
         if (preorderEnd - preorderBegin == 1) return root

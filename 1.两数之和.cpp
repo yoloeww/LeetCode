@@ -6,7 +6,6 @@ public:
         while (nums[i] + nums[j] = target)
               if(j = maxArea)
               {
-                 
                 i++;，
                 j = i；
               }

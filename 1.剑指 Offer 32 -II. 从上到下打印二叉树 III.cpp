@@ -1,5 +1,4 @@
 class Solution { 
-
 public:
 vector<string> res;
 vector<int> vis;  

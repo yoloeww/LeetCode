@@ -8,6 +8,7 @@ public:
         else {
             st.pop();
         }
+        
     }
     string result;
     while(!st.empty()) { // 将栈中元素放到result字符串汇总

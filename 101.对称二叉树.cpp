@@ -11,6 +11,7 @@
  */
 class Solution {
 public:
+
     bool compare(TreeNode* left,TreeNode* right) {
         if (left == nullptr && right != nullptr) return false;
         else if (left != nullptr && right == nullptr) return false;

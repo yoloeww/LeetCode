@@ -7,6 +7,7 @@ vector<int> vis;
             res.push_back(temp);
             return；
         }
+        
         for (int i = 0; i < size; i++) {
             if(vis[i] || (i > 0 && !vis[i - 1] && s[i - 1] == s[i])) continue;
             vis[i] = true;

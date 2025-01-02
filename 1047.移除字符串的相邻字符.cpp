@@ -1,5 +1,6 @@
 class Solution {  
 public:  
+
     string removeDuplicates(string S) {
         stack<char> st;
         for (char s : S) {

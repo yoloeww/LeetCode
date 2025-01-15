@@ -1,7 +1,6 @@
 class Solution:   
 public:     
     vector<int> twoSum(vector<int> & nums, int target) {
-    
         if (nums.size() == 0) return {0,0};
         unordered_map<int,int> mp;
         for (int i = 0; i < nums.size(); i++) {

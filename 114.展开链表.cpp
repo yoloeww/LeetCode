@@ -3,6 +3,7 @@
 #include<cstdio>
 using namespace std
 int stoii(char a[])//转换函数
+
 {
     int len=strlen(a);//字符串长度
     int num=0,first;

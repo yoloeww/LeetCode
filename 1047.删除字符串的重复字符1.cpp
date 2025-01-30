@@ -1,6 +1,5 @@
 class Solution  
 public: 
-
     string removeDuplicates(string s) {
     stack <char> st;
     for(char tmp:s) {

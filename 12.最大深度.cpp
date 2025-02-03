@@ -2,7 +2,8 @@ class solution {
 public:
     int result;
     void getdepth(treenode* node, int depth) {
-        result = depth > result ? depth : result;
+        result = depth > result
+            ? depth : result;
         if (node->left == NULL && node->right == NULL) return ;
         if (node->left) { // 左
             getdepth(node->left, depth + 1);

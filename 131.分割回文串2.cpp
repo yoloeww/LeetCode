@@ -3,7 +3,8 @@ public:
 vector<vector<string>> res;
 string path;
 	void process(string &s,int index) {
-		if (index >= s.size()) {
+		if (index >=
+			s.size()) {
 			res.push_back(path);
 			return ;
 		}

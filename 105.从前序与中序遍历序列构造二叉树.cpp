@@ -11,7 +11,8 @@ if (inorder[delimiterIndex] == rootValue) break;
         // 中序左区间，左闭右开[leftInorderBegin, leftInorderEnd)
         int leftInorderBegin = inorderBegin;
         int leftInorderEnd = delimiterIndex;
-        // 中序右区间，左闭右开[rightInorderBegin, rightInorderEnd)
+       
+            // 中序右区间，左闭右开[rightInorderBegin, rightInorderEnd)
         int rightInorderBegin = delimiterIndex + 1;
         int rightInorderEnd = inorderEnd
         // 切割前序数组

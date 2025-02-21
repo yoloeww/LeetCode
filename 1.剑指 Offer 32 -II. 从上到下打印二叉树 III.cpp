@@ -1,6 +1,7 @@
 class Solution { 
 public:
 
+
 vector<string> res;
 vector<int> vis;  
     void dfs(int x,int size,string &s,string &temp) {

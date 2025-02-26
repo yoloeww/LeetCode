@@ -1,5 +1,6 @@
 class solution {  
 public:
+
     int result;
     void getdepth(treenode* node, int depth) {
         result = depth > result

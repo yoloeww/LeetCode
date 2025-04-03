@@ -1,5 +1,6 @@
 class Solution { 
-public:    int maxArea(vector<int>& height) {
+public:    
+int maxArea(vector<int>& height) {
         int i = 0,j = height.size() - 1;
         // S(i,j) = min(h[i],h[j]) * (j - i);
         // 在每个状态下，无论长板或短板向中间收窄一格，都会导致水槽 底边宽度 −1 变短：

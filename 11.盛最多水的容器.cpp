@@ -6,7 +6,8 @@ public:
         while (i < j) {
             res = height[i] < height[j] ?
             max(res,(j - i) * height[i ++]) :
-            max(res,(j - i) * height[j --]);
+            max(res,(j - i) * height
+                [j --]);
         }
         return res;
     }

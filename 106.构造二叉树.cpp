@@ -1,5 +1,6 @@
 class Solution {
 private:   
+
     TreeNode* traversal (vector<int>& inorder, vector<int>& postorder) {
         if (postorder.size() == 0) return NULL
         // 后序遍历数组最后一个元素，就是当前的中间节点

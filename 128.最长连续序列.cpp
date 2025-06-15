@@ -2,7 +2,6 @@
 // 那么怎么判断是否跳过呢？
 由于我们要枚举的数 x 一定是在数组中不存在前驱数x−1的，不然按照上面的分析我们会从 x−1 开始尝试匹配，因此我们每次在哈希表中检查是否存在 x−1即能判断是否需要跳过了。
 class Solution {   
-
 public:
     int longestConsecutive(vector<int>& nums) {
         unordered_set<int> mp;
